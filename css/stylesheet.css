@@ -1,0 +1,209 @@
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+/* Links */
+a {
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+/* Background Images */
+.aqua-background {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+  width: 100vw;
+}
+
+#aqua-picture {
+  opacity: 60%;
+  z-index: -1;
+  transition: opacity 1.5s;
+}
+
+#aqua-lines {
+  opacity: 0%;
+  z-index: -2;
+  transition: opacity 1.5s;
+}
+
+/* Cannot Use Aqua Background Class */
+#aqua-check {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+  width: 100vw;
+}
+
+/* Content Sections */
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+@media (max-width: 768px) {
+  .content-section {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+}
+
+.content-background {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 1vw;
+  width: 75%;
+  padding: 4vw;
+  transition: background 1.5s;
+  text-align: center;
+}
+
+.content-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.content-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.content-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.content-image {
+  width: 100%;
+  height: auto;
+  border-radius: 1vw;
+}
+
+#red-mirage-map {
+  padding-left: 12.5%;
+  padding-right: 20%;
+}
+
+.bungalow-background {
+  background-image: url("../images/bungalow_cook_county_skyline.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1vw;
+}
+
+.bungalow-logo-link {
+  width: 100%;
+  height: 100%;
+}
+
+/* Start Section */
+#start {
+  min-height: 60vh;
+}
+@media (max-width: 768px) {
+  #start {
+    min-height: 100vh;
+    align-items: start;
+    padding-top: 20vh;
+    margin: 0;
+  }
+}
+
+.start-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.start-subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .start-subtitle {
+    line-height: 1.75rem;
+  }
+}
+
+#start-menu {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  #start-menu {
+    width: 90%;
+  }
+}
+
+.start-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-decoration: none !important;
+}
+@media (max-width: 768px) {
+  .start-link {
+    font-size: 1.2rem;
+  }
+}
+
+/* Projects Sections */
+.project-image-link {
+  width: 60%;
+}
+@media (max-width: 768px) {
+  .project-image-link {
+    width: 100%;
+  }
+}
+
+/* Links Section */
+.link-icon {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 10vw;
+  text-decoration: none !important;
+}
+@media (max-width: 768px) {
+  .link-icon {
+    font-size: 20vw;
+  }
+}
+
+/* End Section */
+#end {
+  min-height: 100vh;
+  align-items: start;
+  padding-top: 20vh;
+  margin: 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 0vh;
+  min-height: 10vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 100vw;
+  margin: 0px !important;
+}
+
+.footer-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: white !important;
+  text-decoration: none !important;
+}
